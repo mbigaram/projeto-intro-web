@@ -193,6 +193,10 @@ footer {
     width: 20px;
 }
 
+#spot {
+    width: 20px;
+}
+
 
 @media screen and (min-device-width : 420px) and (max-device-width : 675px) {
 

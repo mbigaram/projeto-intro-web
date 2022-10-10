@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bungalow Beatles</title>
-    <script src="index.js"></script>
+    <script src="index.js" defer></script>
     <link rel="stylesheet" type="text/css" href="./styles.css">
     <style type="text/css">
 
@@ -23,11 +23,11 @@
                 <p class="gradiente">Beatles</p>
             </h1>
         </div>
-        <form method="get" action="">
+        <form method="get" action=""> 
             <div id="search">
-                <label for="busca"></label>
-                <input type="search" id="busca" name="busca" placeholder="Please me" required>
-                <button type="submit" id="botao">HELP!</button>
+                <label for="busca"></label> 
+                <input type="text" size="20"  id="busca" onkeyup="exibirInput()" name="busca" placeholder="Busca" required>
+                <!-- <button type="submit" id="botao">HELP!</button> -->
             </div>
     </header>
     <nav>
@@ -52,7 +52,7 @@
             </a>
         </div>
     </nav>
-    <main>
+    <main id="list">
         <section class="capa" id="cap">
             <div class="card" id="cartao">
                 <div class="face" id="frente">
@@ -85,14 +85,14 @@
             </div>
         </section>
         <section class="capa" id="cap">
-            <div class="card">
+            <div class="card" id="cartao">
                 <div class="face" id="frente">
                     <img src="./assets/with-the-beatles.png" alt="capa">
                     <h2 id="album">With the Beatles</h2>
                 </div>
                 <div class="face" id="verso">
                     <ul>
-                        <li>Album:<a href="https://pt.wikipedia.org/wiki/With_the_Beatles" target="_blank">
+                        <li id="myUl">Album:<a href="https://pt.wikipedia.org/wiki/With_the_Beatles" target="_blank">
                                 <h3>With the Beatles</h3>
                             </a></li>
                         <li>Ano: 1963</li>
@@ -722,7 +722,7 @@
                 </div>
             </div>
         </section>
-        <section class="capa" id="cap">
+        <section class="capa" id="refjs">
             <div class="card">
                 <div class="face" id="frente">
                     <img src="./assets/one.png" alt="capa">
@@ -766,6 +766,90 @@
                             Let It Be,
                             The Long And Winding
                             Road</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="capa" id="refjs">
+            <div class="card">
+                <div class="face" id="frente">
+                    <img src="./assets/Live_at_the_Hollywood_Bowl.png" alt="capa">
+                    <h2 id="album">Live at the Hollywood Bowl</h2>
+                </div>
+                <div class="face" id="verso">
+                    <ul>
+                        <li>Album:<a href="https://en.wikipedia.org/wiki/The_Beatles_at_the_Hollywood_Bowl" target="_blank">
+                                <h3>Live at the Hollywood Bowl</h3>
+                            </a></li>
+                        <li>Ano: 1977</li>
+                        <li>Quantidade: 17</li>
+                        <li>Músicas:
+                            Twist and Shout,
+                            She's a Woman,
+                            Dizzy Miss Lizzy,
+                            Ticket to Ride,
+                            Can't Buy Me Love,
+                            Things We Said Today,
+                            Roll Over Beethoven,
+                            Boys,
+                            A Hard Day's Night,
+                            Help!,
+                            All My Loving,
+                            She Loves You,
+                            Long Tall Sally,
+                            You Can't Do That,
+                            I Want to Hold Your Hand,
+                            Everybody's Trying to Be My Baby,
+                            Baby's in Black</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="capa" id="refjs">
+            <div class="card">
+                <div class="face" id="frente">
+                    <img src="./assets/LiveattheBBCcover.png" alt="capa">
+                    <h2 id="album">Live at the BBC</h2>
+                </div>
+                <div class="face" id="verso">
+                    <ul>
+                        <li>Album:<a href="https://en.wikipedia.org/wiki/Live_at_the_BBC_(Beatles_album)" target="_blank">
+                                <h3>Live at the BBC</h3>
+                            </a></li>
+                        <li>Ano: 1994</li>
+                        <li>Quantidade: 71</li>
+                        <li>Algumas Músicas:
+                            I Got a Woman,
+                            Too Much Monkey Business,
+                            Young Blood,
+                            A Shot of Rhythm and Blues,
+                            Sure to Fall (in Love with You),
+                            Some Other Guy,
+                            Thank You Girl,
+                            Baby It's You,
+                            That's All Right (Mama),
+                            Carol,
+                            A Taste of Honey,
+                            Long Tall Sally,
+                            I Saw Her Standing There,
+                            The Honeymoon Song,
+                            Johnny B Goode,
+                            Memphis, Tennessee,
+                            Lucille,
+                            Can't Buy Me Love,
+                            From Fluff to You,
+                            Till There Was You,
+                            Roll Over Beethoven,
+                            All My Loving,
+                            Things We Said Today,
+                            She's a Woman,
+                            Sweet Little Sixteen,
+                            1822!,
+                            Glad All Over,
+                            I Just Don't Understand,
+                            So How Come (No One Loves Me),
+                            I Feel Fine,
+                            Ooh! My Soul</li>
                     </ul>
                 </div>
             </div>

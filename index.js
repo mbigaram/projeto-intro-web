@@ -23,13 +23,9 @@ const album1 = {
         " Do You Want To Know A Secret",
         " A Taste Of Honey",
         " There's A Place",
-        " Twist And Shout"],
-
+        " Twist And Shout"
+    ],
 }
-
-// console.log("Primeiro album: " + album1.album.toUpperCase(), "\nTempo: " + album1.ano, "\nQuantidade de músicas: " + album1.qtde, "\nFaixas: " + album1.musicas.sort())
-
-
 const album2 = {
     capa:"../assets/with-the-beatles.png",
     album: "With the Beatles",
@@ -52,23 +48,7 @@ const album2 = {
         " Not A Second Time",
         " Money (Thats What I Want)"
     ],
-
 }
-
-// console.log("Segundo album: " + album2.album.toUpperCase(), "\nTempo: " + album2.ano, "\nQuantidade de músicas: " + album2.qtde, "\nFaixas: " + album2.musicas.sort())
-
-// const albumC1 = {
-//     album: "The Beatles Ft Tony Sheridan - In The Beginning",
-//     ano: 1964,
-//     qtde: 12,
-//     duracao: 36.15,
-//     nCol: false,
-//     musicas: [" Ain't she Sweet", " Cry For A Shadow", " Let's Dance", " My Bonnie", " Take Out Some Insurance On Me, Baby, What'd I Say", " Sweet Georgia Brown", " When The Saints Go Marching In", " Ruby Baby", " Why", " Nobody's Child", " Ya Ya (Parts 1 & 2)",] 
-
-// }
-
-// console.log("Primeira coletânea: " + albumC1.album.toUpperCase(), "\nQuantidade de músicas: " + albumC1.qtde, "\nTempo: " + albumC1.duracao, "\nFaixas: " + albumC1.musicas.sort())
-
 const album3 = {
     capa:"../assets/a-hard-days-night.png",
     album: "A Hard Day's Night",
@@ -90,11 +70,7 @@ const album3 = {
         " When I Get Home",
         " You Can't Do That", " I'll Be Back"
     ],
-
 }
-
-// console.log("Terceiro album: " + album3.album.toUpperCase(), "\nTempo: " + album3.ano, "\nQuantidade de músicas: " + album3.qtde, "\nFaixas: " + album3.musicas.sort())
-
 const album4 = {
     capa:"../assets/beatles-for-sale.png",
     album: "Beatles for Sale",
@@ -117,11 +93,7 @@ const album4 = {
         " What You're Doing",
         " Everybody's Trying To Be My Baby"
     ],
-
 }
-
-// console.log("Quarto album: " + album4.album.toUpperCase(), "\nTempo: " + album4.ano, "\nQuantidade de músicas: " + album4.qtde, "\nFaixas: " + album4.musicas.sort())
-
 const album5 = {
     capa:"../assets/help.png",
     album: "Help!",
@@ -144,11 +116,7 @@ const album5 = {
         " I've Just Seen A Face",
         " Yesterday", " Dizzy Miss Lizzy"
     ],
-
 }
-
-// console.log("Quinto album: " + album5.album.toUpperCase(), "\nTempo: " + album5.ano, "\nQuantidade de músicas: " + album5.qtde, "\nFaixas: " + album5.musicas.sort())
-
 const album6 = {
     capa:"../assets/rubber-soul.png",
     album: "Rubber Soul",
@@ -172,9 +140,6 @@ const album6 = {
         " Run For Your Life",
     ],
 }
-
-// console.log("Sexto album: " + album6.album.toUpperCase(), "\nTempo: " + album6.ano, "\nQuantidade de músicas: " + album6.qtde, "\nFaixas: " + album6.musicas.sort())
-
 const album7 = {
     capa:"../assets/revolver.png",
     album: "Revolver",
@@ -196,12 +161,8 @@ const album7 = {
         " I Want To Tell You",
         " Got To Get You Into My Life",
         " Tomorrow Never Knows",
-
     ]
 }
-
-// console.log("Sétimo album: " + album7.album.toUpperCase(), "\nTempo: " + album7.ano, "\nQuantidade de músicas: " + album7.qtde, "\nFaixas: " + album7.musicas.sort())
-
 const album8 = {
     capa:"../assets/sgt-peppers.png",
     album: "Sgt. Pepper's Lonely Hearts Club Band",
@@ -222,12 +183,8 @@ const album8 = {
         " Good Morning Good Morning",
         " Sgt Pepper's Lonely Hearts Club Band (Reprise)",
         " A Day In The Life",
-
     ]
 }
-
-// console.log("Oitavo album: " + album8.album.toUpperCase(), "\nTempo: " + album8.ano, "\nQuantidade de músicas: " + album8.qtde, "\nFaixas: " + album8.musicas.sort())
-
 const album9 = {
     capa:"../assets/magical-mystery-tour.png",
     album: "Magical Mystery Tour",
@@ -246,12 +203,8 @@ const album9 = {
         " Penny Lane",
         " Baby You're A Rich Man",
         " All You Need Is Love",
-
     ]
 }
-
-// console.log("Nono album: " + album9.album.toUpperCase(), "\nTempo: " + album9.ano, "\nQuantidade de músicas: " + album9.qtde, "\nFaixas: " + album9.musicas.sort())
-
 const album10 = {
     capa:"../assets/white-album.png",
     album: "The White Album ",
@@ -289,12 +242,8 @@ const album10 = {
         " Cry Baby Cry",
         " Revolution 9",
         " Good Night",
-
     ]
 }
-
-// console.log("Décimo album: " + album10.album.toUpperCase(), "\nTempo: " + album10.ano, "\nQuantidade de músicas: " + album10.qtde, "\nFaixas: " + album10.musicas.sort())
-
 const album11 = {
     capa:"../assets/yellow-submarine.png",
     album: "Yellow Submarine",
@@ -315,12 +264,8 @@ const album11 = {
         " March Of The Meanies",
         " Pepperland Laid Waste",
         " Yellow Submarine In Pepperland",
-
     ]
 }
-
-// console.log("Décimo primeiro álbum: " + album11.album.toUpperCase(), "\nTempo: " + album11.ano, "\nQuantidade de músicas: " + album11.qtde, "\nFaixas: " + album11.musicas.sort())
-
 const album12 = {
     capa:"../assets/abbey-road.png",
     album: "Abbey Road",
@@ -347,9 +292,6 @@ const album12 = {
         " Her Majesty",
     ]
 }
-
-// console.log("Décimo primeiro álbum: " + album12.album.toUpperCase(), "\nTempo: " + album12.ano, "\nQuantidade de músicas: " + album12.qtde, "\nFaixas: " + album12.musicas.sort())
-
 const album13 = {
     capa:"../assets/let-it-be.png",
     album: "Let It Be",
@@ -371,9 +313,6 @@ const album13 = {
         " Get Back",
     ]
 }
-
-// console.log("Vigésima terceira coletânea: " + album13.album.toUpperCase(), "\nTempo: " + album13.ano, "\nQuantidade de músicas: " + album13.qtde, "\nFaixas: " + album13.musicas.sort())
-
 const albumC2 = {
     capa:"../assets/red-album.png",
     album: "The Beatles 1962 - 1966",
@@ -409,11 +348,6 @@ const albumC2 = {
         " Yellow Submarine",
     ],
 }
-
-
-// console.log("Vigésima terceira coletânea: " + albumC2.album.toUpperCase(), "\nTempo: " + albumC2.ano, "\nQuantidade de músicas: " + albumC2.qtde, "\nFaixas: " + albumC2.musicas.sort())
-
-
 const albumC1 = {
     capa:"../assets/hey-jude.png",
     album: "Hey Jude",
@@ -433,9 +367,6 @@ const albumC1 = {
         " The Ballad Of John And Yoko",
     ]
 }
-
-// console.log("Décima oitava coletânea: " + albumC1.album.toUpperCase(), "\nTempo: " + albumC1.ano, "\nQuantidade de músicas: " + albumC1.qtde, "\nFaixas: " + albumC1.musicas.sort())
-
 const albumC3 = {
     capa:"../assets/blue-album.png",
     album: "The Beatles 1967 - 1970",
@@ -473,9 +404,6 @@ const albumC3 = {
         " The Long And Winding Road",
     ]
 }
-
-// console.log("Coletânea: " + albumC3.album.toUpperCase(), "\nTempo: " + albumC3.ano, "\nQuantidade de músicas: " + albumC3.qtde, "\nFaixas: " + albumC3.musicas.sort())
-
 const albumC7 = {
     capa:"../assets/rock-n-roll.png",
     album: "Rock and Roll Music",
@@ -512,9 +440,6 @@ const albumC7 = {
         " Birthday",
     ]
 }
-
-// console.log("Coletânea: " + albumC7.album.toUpperCase(), "\nTempo: " + albumC7.ano, "\nQuantidade de músicas: " + albumC7.qtde, "\nFaixas: " + albumC7.musicas.sort())
-
 const albumC4 = {
     capa:"../assets/past-master-one.png",
     album: "Past Master - Volume One",
@@ -542,9 +467,6 @@ const albumC4 = {
         " I'm Down",
     ]
 }
-
-// console.log("Coletânea: " + albumC4.album.toUpperCase(), "\nTempo: " + albumC4.ano, "\nQuantidade de músicas: " + albumC4.qtde, "\nFaixas: " + albumC4.musicas.sort())
-
 const albumC5 = {
     capa:"../assets/past-master-two.png",
     album: "Past Master - Volume Two",
@@ -569,9 +491,6 @@ const albumC5 = {
         " You Know My Name (Look Up The Number)",
     ]
 }
-
-// console.log("Coletânea: " + albumC5.album.toUpperCase(), "\nTempo: " + albumC5.ano, "\nQuantidade de músicas: " + albumC5.qtde, "\nFaixas: " + albumC5.musicas.sort())
-
 const albumC8 = {
     capa:"../assets/one.png",
     album: "1",
@@ -606,166 +525,172 @@ const albumC8 = {
         " Come Together",
         " Let It Be",
         " The Long And Winding Road",
-
     ]
-
 }
 
-// const qtde = (album1.qtde + album2.qtde + album3.qtde + album4.qtde + album5.qtde + album6.qtde + album7.qtde + album8.qtde + album9.qtde + album10.qtde + album11.qtde + album12.qtde + album13.qtde + albumC1.qtde + albumC2.qtde + albumC3.qtde + albumC4.qtde + albumC5.qtde + albumC8.qtde) / 19
-
-// console.log("Média de músicas por albúm: ", qtde.toFixed())
-
-// const coletanea = album1.nCol && album2.nCol && album3.nCol && album4.nCol + album5.nCol && album6.nCol && album7.nCol && album8.nCol && album9.nCol && album10.nCol && album11.nCol && album12.nCol && album13.nCol && albumC1.nCol && albumC1.nCol && albumC2.nCol && albumC3.nCol && albumC4.nCol && albumC5.nCol && albumC8.nCol 
-// console.log("Tem coletãnea? " + !coletanea)
+let albuns =[album1, album2, album3,album4, album5, album6,album7, album8, album9,album10, album11, album12,album13, albumC1, albumC2,albumC3, albumC4, albumC5, albumC7, albumC8]
 
 
-const albuns = []
+function exibirInput() {
+    let input = document.getElementById('busca').value
+    input=input.toLowerCase();
+    let alb = document.getElementsByClassName('capa');
+    for (i in alb) { 
+        if (!alb[i].innerHTML.toLowerCase().includes(input)) {
+            alb[i].style.display="none";
+        }
+        else {
+            alb[i].style.display="list-item";                 
+        }
+    }
+}
 
 
-if (album1.nCol === true) {
-    albuns.push(album1)
-
-} else { console.log(`O álbum ${album1.album} é uma coletânea`)}
-
-if (album2.nCol === true) {
-    albuns.push(album2)
-
-} else { console.log(`O álbum ${album2.album} é uma coletânea`)}
-
-if (album3.nCol === true) {
-    albuns.push(album3)
-
-} else { console.log(`O álbum ${album3.album} é uma coletânea`)}
-
-if (album4.nCol === true) {
-    albuns.push(album4)
-
-} else { console.log(`O álbum ${album4.album} é uma coletânea`)}
-
-if (album5.nCol === true) {
-    albuns.push(album5)
-
-} else { console.log(`O álbum ${album5.album} é uma coletânea`)}
-
-if (album6.nCol === true) {
-    albuns.push(album6)
-
-} else { console.log(`O álbum ${album6.album} é uma coletânea`)}
-
-if (album7.nCol === true) {
-    albuns.push(album7)
-
-} else { console.log(`O álbum ${album7.album} é uma coletânea`)}
-
-if (album8.nCol === true) {
-    albuns.push(album8)
-
-} else { console.log(`O álbum ${album8.album} é uma coletânea`)}
-
-if (album9.nCol === true) {
-    albuns.push(album9)
-
-} else { console.log(`O álbum ${album9.album} é uma coletânea`)}
-
-if (album10.nCol === true) {
-    albuns.push(album10)
-
-} else { console.log(`O álbum ${album10.album} é uma coletânea`)}
-
-if (album11.nCol === true) {
-    albuns.push(album11)
-
-} else { console.log(`O álbum ${album11.album} é uma coletânea`)}
-
-if (album12.nCol === true) {
-    albuns.push(album12)
-
-} else { console.log(`O álbum ${album12.album} é uma coletânea`)}
-
-if (album13.nCol === true) {
-    albuns.push(album13)
-
-} else { console.log(`O álbum ${album13.album} é uma coletânea`)}
-
-if (albumC1.nCol === true) {
-    albuns.push(albumC1)
-
-} else { console.log(`O álbum ${albumC1.album} é uma coletânea`)}
-
-if (albumC2.nCol === true) {
-    albuns.push(albumC2)
-
-} else { console.log(`O álbum ${albumC2.album} é uma coletânea`)}
-
-if (albumC3.nCol === true) {
-    albuns.push(albumC3)
-
-} else { console.log(`O álbum ${albumC3.album} é uma coletânea`)}
-
-if (albumC4.nCol === true) {
-    albuns.push(albumC4)
-
-} else { console.log(`O álbum ${albumC4.album} é uma coletânea`)}
-
-if (albumC5.nCol === true) {
-    albuns.push(albumC5)
-
-} else { console.log(`O álbum ${albumC5.album} é uma coletânea`) }
-
-if (albumC7.nCol === true) {
-    albuns.push(albumC7)
-
-} else { console.log(`O álbum ${albumC7.album} é uma coletânea`) }
-
-if (albumC8.nCol === true) {
-    albuns.push(albumC8)
-
-} else { console.log(`O álbum ${albumC8.album} é uma coletânea`) }
-
-console.log (albuns)
 
 
-// for (let i in albuns){
-//     console.log("Album:",albuns[i].album.toUpperCase(),"\nAno:", albuns[i].ano, "\nQuantidade de musicas:",albuns[i].qtde,"\nMúsicas:", albuns[i].musicas.join())
+// const albumVivo1 = {
+//     capa:"../assets/one.png",
+//     album: "The Beatles at Hollywood Bowl",
+//     ano: 1970,
+//     qtde: 10,
+//     nCol: false,
+//     musicas: [
+//         " Can't Buy Me Love",
+//         " I Should Have Known Better",
+//         " Paperback Writer",
+//         " Rain",
+//         " Lady Madonna",
+//         " Revolution",
+//         " Hey Jude",
+//         " Old Brown Shoe",
+//         " Don't Let Me Down",
+//         " The Ballad Of John And Yoko",
+//     ]
+// }
+
+// const addNovoAlbumSection=()=>{
+//     const newSection = document.createElement("section")
+//     newSection.setAttribute("id", "vivo");
+//     newSection.setAttribute("class", "capa")
+//     const newAlbum = document.createTextNode("")
+//     newSection.appendChild(newAlbum)
+//     const refSection = document.getElementById("refjs")
+//     refSection.insertAdjacentElement('afterend',newSection)
+
+// }
+// addNovoAlbumSection()
+
+// const addNovoAlbumDiv=()=>{
+//     const newDiv = document.createElement("div")
+//     newDiv.setAttribute("id", "vivo2")
+//     newDiv.setAttribute("class", "card")
+//     const newAlbum = document.createTextNode("")
+//     newDiv.appendChild(newAlbum)
+//     const refSection = document.getElementById("vivo")
+//     refSection.insertAdjacentElement('beforeend',newDiv)
+// }
+// addNovoAlbumDiv()
+
+// const addNovoAlbumDiv2=()=>{
+//     const newDiv2 = document.createElement("div")
+//     newDiv2.setAttribute("id", "frente")
+//     newDiv2.setAttribute("class", "face")
+//     const newAlbum = document.createTextNode("")
+//     newDiv2.appendChild(newAlbum)
+//     const refSection = document.getElementById("vivo2")
+//     refSection.insertAdjacentElement('beforeend',newDiv2)
+//     newDiv2.innerHTML += albumVivo1.album;
+
+// }
+// addNovoAlbumDiv2()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// const exibirInput = () => {
+//     const input = document.getElementById("busca");
+//     console.log(input.value)
+
 // }
 
 
-for (alb of albuns) {
-    for (i in alb) {
-        console.log(`${i}: ${alb[i]}`)
-    }
-}
-
-// 3. Crie uma função que receba como parâmetro um objeto
-
-function string(objeto){
-    for(let i of objeto) {
-        console.log(`Album: ${i.album}
-Ano: ${i.ano}
-Quantidade: ${i.qtde}
-Coletânea: ${i.nCol}
-Músicas: ${i.musicas} `)
-    }   
-}
-//  e devolva a string do relatório com os dados do objeto.
-string(albuns)
-
-// 4. Crie uma função que recebe um array de objetos e uma string.
-//  Esta função deve retornar um objeto, 
-// e o objeto retornado deve possuir apenas os itens que tenham o nome/título igual à string passada como parâmetro. 
-// Caso não exista um item, exiba um ALERT indicando que nenhum item foi encontrado.
 
 
 
- function pesquisa(array, string) {
-    for(i in albuns){
-        if(array[i].album === string){
-            return console.log(array[i])
-        }
-    }
-    return alert("Não foi encontrado")
- }
-console.log(pesquisa(albuns,"Let It Be"))
+// for (alb of albuns) {
+//     for (i in alb) {
+//         console.log(`${i}: ${alb[i]}`)
+//     }
+// }
+
+// // 3. Crie uma função que receba como parâmetro um objeto
+
+// function string(objeto){
+//     for(let i of objeto) {
+//         console.log(`Album: ${i.album}
+// Ano: ${i.ano}
+// Quantidade: ${i.qtde}
+// Coletânea: ${i.nCol}
+// Músicas: ${i.musicas} `)
+//     }   
+// }
+// //  e devolva a string do relatório com os dados do objeto.
+// string(albuns)
+
+
+
+//  function pesquisa(array, string) {
+//     for(i in albuns){
+//         if(array[i].album === string){
+//             return console.log(array[i])
+//         }
+//     }
+//     return alert("Não foi encontrado")
+//  }
+// pesquisa(albuns,"Yellow Submarine")
+
+
+// // exemplo de como poderia ter feito com filter
+
+// // const dois =(albuns, string) => {
+// //     const resultado = albuns.filter((obj) => {
+// //         return obj.album === string
+// //     })
+// //     if (resultado.length > 0){
+// //         console.log(resultado)
+// //     }else{
+// //         alert("Nenhum item encontrado")
+// //     }
+// // }
+
+
+// const exibirInput = () => {
+//     const input = document.getElementById("busca");
+//     console.log(input.value)
+
+// }
+
 
 
 

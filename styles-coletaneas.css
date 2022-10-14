@@ -118,6 +118,38 @@ main{
     background: #000000;
 }
 
+#materia{
+    color:antiquewhite;
+    font-family: Tahoma;
+    text-align: center;
+    padding: 0% 2%;
+} 
+
+#texto{
+    padding: 5% 5%;
+    text-align: justify;
+    font-size: 16px;
+}
+
+#formacao{
+    gap:5px;
+}
+
+#vetor{
+    width: 40%;
+    height: 40%;
+    /* border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px; */  
+}
+
+#form{
+    display: flex;
+    font-size: 95%;
+    font-family: Tahoma;
+    text-align: center;
+
+}
+
 article{
     display:none;
 }
@@ -132,10 +164,10 @@ article:target{
     justify-content: center;
     width: 100%;
     margin: 0 0 0 5%;
-    padding-top: 120px;
-    padding-bottom: 111px;
+    padding-top: 130px;
+    padding-bottom: 31px;
     padding-inline: 2%;
-    gap:30px;
+    gap: 60px;
     background-image: url(./assets/fotos-beatles/foto-fundo.png);
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
@@ -187,7 +219,7 @@ h1 {
 } */
 
 .gradiente{
-    background-image: linear-gradient(to right, #709270, #E6B38C,  #966262);
+    background-image: linear-gradient(to right, #418766, #c97760,  #4b7b9d, #934767);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;

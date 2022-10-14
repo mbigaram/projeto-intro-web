@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bungalow Beatles</title>
-    <script src="index.js"></script>
+    <script src="index.js" defer></script>
     <link rel="stylesheet" type="text/css" href="./styles-albuns.css">
     <style type="text/css">
 
@@ -22,7 +22,7 @@
                 <p class="gradiente">Bungalow</p>
                 <p class="gradiente">Beatles</p>
             </h1>
-        <!-- </div>
+            <!-- </div>
         <form method="get" action="">
             <div id="search">
                 <label for="busca"></label>
@@ -58,7 +58,9 @@
                 <div class="card" id="cartao">
                     <div class="face" id="frente">
                         <img src="./assets/please-please-me.png" alt="capa" id="imagem">
-                        <a href='#musicas1'><h2 id="album">Please Please Me</h2></a>
+                        <a onclick="clicado(event)" href='#musicas1'>
+                            <h2 id="album">Please Please Me</h2>
+                        </a>
                     </div>
                 </div>
             </section>
@@ -66,7 +68,9 @@
                 <div class="card">
                     <div class="face" id="frente">
                         <img src="./assets/with-the-beatles.png" alt="capa" id="imagem">
-                        <a href='#musicas2'><h2 id="album">With the Beatles</h2></a>
+                        <a onclick="clicado(event)" href='#musicas2'>
+                            <h2 id="album">With the Beatles</h2>
+                        </a>
                     </div>
                 </div>
             </section>
@@ -74,7 +78,9 @@
                 <div class="card">
                     <div class="face" id="frente">
                         <img src="./assets/a-hard-days-night.png" alt="capa" id="imagem">
-                        <a href='#musicas3'><h2 id="album">A Hard Day's Night</h2></a>
+                        <a onclick="clicado(event)" href='#musicas3'>
+                            <h2 id="album">A Hard Day's Night</h2>
+                        </a>
                     </div>
                 </div>
             </section>
@@ -82,7 +88,9 @@
                 <div class="card">
                     <div class="face" id="frente">
                         <img src="./assets/beatles-for-sale.png" alt="capa" id="imagem">
-                        <a href='#musicas4'><h2 id="album">Beatles for Sale</h2></a>
+                        <a onclick="clicado(event)" href='#musicas4'>
+                            <h2 id="album">Beatles for Sale</h2>
+                        </a>
                     </div>
                 </div>
             </section>
@@ -90,7 +98,9 @@
                 <div class="card">
                     <div class="face" id="frente">
                         <img src="./assets/help.png" alt="capa" id="imagem">
-                        <a href='#musicas5'><h2 id="album">Help!</h2></a>
+                        <a onclick="clicado(event)" href='#musicas5'>
+                            <h2 id="album">Help!</h2>
+                        </a>
                     </div>
                 </div>
             </section>
@@ -98,7 +108,9 @@
                 <div class="card">
                     <div class="face" id="frente">
                         <img src="./assets/rubber-soul.png" alt="capa" id="imagem">
-                        <a href='#musicas6'><h2 id="album">Rubber Soul</h2></a>
+                        <a onclick="clicado(event)" href='#musicas6'>
+                            <h2 id="album">Rubber Soul</h2>
+                        </a>
                     </div>
                 </div>
             </section>
@@ -106,7 +118,9 @@
                 <div class="card">
                     <div class="face" id="frente">
                         <img src="./assets/revolver.png" alt="capa" id="imagem">
-                        <a href='#musicas7'><h2 id="album">Revolver</h2></a>
+                        <a onclick="clicado(event)" href='#musicas7'>
+                            <h2 id="album">Revolver</h2>
+                        </a>
                     </div>
                 </div>
             </section>
@@ -114,7 +128,9 @@
                 <div class="card">
                     <div class="face" id="frente">
                         <img src="./assets/sgt-peppers.png" alt="capa" id="imagem">
-                        <a href='#musicas8'><h2 id="album">Sgt. Pepper's Lonely Hearts Club Band</h2></a>
+                        <a onclick="clicado(event)" href='#musicas8'>
+                            <h2 id="album">Sgt. Pepper's Lonely Hearts Club Band</h2>
+                        </a>
                     </div>
                 </div>
             </section>
@@ -122,7 +138,9 @@
                 <div class="card">
                     <div class="face" id="frente">
                         <img src="./assets/magical-mystery-tour.png" alt="capa" id="imagem">
-                        <a href='#musicas9'><h2 id="album">Magical Mystery Tour</h2></a>
+                        <a onclick="clicado(event)" href='#musicas9'>
+                            <h2 id="album">Magical Mystery Tour</h2>
+                        </a>
                     </div>
                 </div>
             </section>
@@ -130,7 +148,9 @@
                 <div class="card">
                     <div class="face" id="frente">
                         <img src="./assets/white-album.png" alt="capa" id="imagem">
-                        <a href='#musicas10'><h2 id="album">The White Album</h2></a>
+                        <a onclick="clicado(event)" href='#musicas10'>
+                            <h2 id="album">The White Album</h2>
+                        </a>
                     </div>
                 </div>
             </section>
@@ -138,7 +158,9 @@
                 <div class="card">
                     <div class="face" id="frente">
                         <img src="./assets/yellow-submarine.png" alt="capa" id="imagem">
-                        <a href='#musicas11'><h2 id="album">Yellow Submarine</h2></a>
+                        <a onclick="clicado(event)" href='#musicas11'>
+                            <h2 id="album">Yellow Submarine</h2>
+                        </a>
                     </div>
                 </div>
             </section>
@@ -146,7 +168,9 @@
                 <div class="card">
                     <div class="face" id="frente">
                         <img src="./assets/abbey-road.png" alt="capa" id="imagem">
-                        <a href='#musicas12'><h2 id="album">Abbey Road</h2></a>
+                        <a onclick="clicado(event)" href='#musicas12'>
+                            <h2 id="album">Abbey Road</h2>
+                        </a>
                     </div>
                 </div>
             </section>
@@ -154,51 +178,133 @@
                 <div class="card">
                     <div class="face" id="frente">
                         <img src="./assets/let-it-be.png" alt="capa" id="imagem">
-                        <a href='#musicas13'><h2 id="album">Let It Be</h2></a>
+                        <a onclick="clicado(event)" href='#musicas13'>
+                            <h2 id="album">Let It Be</h2>
+                        </a>
                     </div>
                 </div>
             </section>
         </div>
         <aside id="asides">
             <div>
-                <article id="musicas1">
-                    <iframe style="border-radius:0px" src="https://open.spotify.com/embed/album/3KzAvEXcqJKBF97HrXwlgf?utm_source=generator&theme=0" width="100%" height="464" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                <div class="materias" id="materia">
+                    <div id="formacao">
+                        <div id="form">
+                            <img src="./assets/fotos-beatles/john-lennon.png" alt="jhon lennon" id="jpgr">
+                            <a>John Lennon</a>
+                        </div>
+                        <div id="form">
+                            <img src="./assets/fotos-beatles/mccartney.png" alt="paul mccartney" id="jpgr">
+                            <a>Paul Mccartney</a>
+                        </div>
+                        <div id="form">
+                            <img src="./assets/fotos-beatles/george-harrison.png" alt="george harrison" id="jpgr">
+                            <a>George Harrison</a>
+                        </div>
+                        <div id="form">
+                            <img src="./assets/fotos-beatles/ringo.png" alt="ringo star" class="ringo" id="jpgr">
+                            <a>Ringo Star</a>
+                        </div>
+                    </div>
+                    <p id="texto">No início de 1964, os Beatles tornaram-se estrelas internacionais, liderando a "Invasão
+                        Britânica" do mercado pop dos Estados Unidos e quebrando vários recordes de vendas. Eles logo
+                        fizeram sua estreia no cinema com A Hard Day's Night (1964). A partir de 1965, eles produziram
+                        gravações cada vez mais inovadoras, incluindo os álbuns Rubber Soul (1965), Revolver (1966) e
+                        Sgt. Pepper's Lonely Hearts Club Band (1967), tendo maior sucesso comercial com The Beatles
+                        (White Album) (1968) e Abbey Road (1969). Em 1968, eles fundaram a Apple Corps, uma corporação
+                        multimídia que continua supervisionando projetos relacionados ao legado da banda.
+                    </p>
+                </div>
+                <article class="music" id="musicas1">
+                    <iframe style="border-radius:0px"
+                        src="https://open.spotify.com/embed/album/3KzAvEXcqJKBF97HrXwlgf?utm_source=generator&theme=0"
+                        width="100%" height="464" frameBorder="0" allowfullscreen=""
+                        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                        loading="lazy"></iframe>
                 </article>
                 <article id="musicas2">
-                    <iframe style="border-radius:0px" src="https://open.spotify.com/embed/album/1aYdiJk6XKeHWGO3FzHHTr?utm_source=generator&theme=0" width="100%" height="464" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                    <iframe style="border-radius:0px"
+                        src="https://open.spotify.com/embed/album/1aYdiJk6XKeHWGO3FzHHTr?utm_source=generator&theme=0"
+                        width="100%" height="464" frameBorder="0" allowfullscreen=""
+                        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                        loading="lazy"></iframe>
                 </article>
                 <article id="musicas3">
-                    <iframe style="border-radius:0px" src="https://open.spotify.com/embed/album/6wCttLq0ADzkPgtRnUihLV?utm_source=generator&theme=0" width="100%" height="464" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                    <iframe style="border-radius:0px"
+                        src="https://open.spotify.com/embed/album/6wCttLq0ADzkPgtRnUihLV?utm_source=generator&theme=0"
+                        width="100%" height="464" frameBorder="0" allowfullscreen=""
+                        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                        loading="lazy"></iframe>
                 </article>
                 <article id="musicas4">
-                    <iframe style="border-radius:0px" src="https://open.spotify.com/embed/album/1vANZV20H5B4Fk6yf7Ot9a?utm_source=generator&theme=0" width="100%" height="464" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                    <iframe style="border-radius:0px"
+                        src="https://open.spotify.com/embed/album/1vANZV20H5B4Fk6yf7Ot9a?utm_source=generator&theme=0"
+                        width="100%" height="464" frameBorder="0" allowfullscreen=""
+                        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                        loading="lazy"></iframe>
                 </article>
                 <article id="musicas5">
-                    <iframe style="border-radius:0px" src="https://open.spotify.com/embed/album/0PT5m6hwPRrpBwIHVnvbFX?utm_source=generator&theme=0" width="100%" height="464" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                    <iframe style="border-radius:0px"
+                        src="https://open.spotify.com/embed/album/0PT5m6hwPRrpBwIHVnvbFX?utm_source=generator&theme=0"
+                        width="100%" height="464" frameBorder="0" allowfullscreen=""
+                        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                        loading="lazy"></iframe>
                 </article>
                 <article id="musicas6">
-                    <iframe style="border-radius:0px" src="https://open.spotify.com/embed/album/50o7kf2wLwVmOTVYJOTplm?utm_source=generator&theme=0" width="100%" height="464" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                    <iframe style="border-radius:0px"
+                        src="https://open.spotify.com/embed/album/50o7kf2wLwVmOTVYJOTplm?utm_source=generator&theme=0"
+                        width="100%" height="464" frameBorder="0" allowfullscreen=""
+                        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                        loading="lazy"></iframe>
                 </article>
                 <article id="musicas7">
-                    <iframe style="border-radius:0px" src="https://open.spotify.com/embed/album/3PRoXYsngSwjEQWR5PsHWR?utm_source=generator&theme=0" width="100%" height="464" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                    <iframe style="border-radius:0px"
+                        src="https://open.spotify.com/embed/album/3PRoXYsngSwjEQWR5PsHWR?utm_source=generator&theme=0"
+                        width="100%" height="464" frameBorder="0" allowfullscreen=""
+                        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                        loading="lazy"></iframe>
                 </article>
                 <article id="musicas8">
-                    <iframe style="border-radius:0px" src="https://open.spotify.com/embed/album/6QaVfG1pHYl1z15ZxkvVDW?utm_source=generator&theme=0" width="100%" height="464" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                    <iframe style="border-radius:0px"
+                        src="https://open.spotify.com/embed/album/6QaVfG1pHYl1z15ZxkvVDW?utm_source=generator&theme=0"
+                        width="100%" height="464" frameBorder="0" allowfullscreen=""
+                        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                        loading="lazy"></iframe>
                 </article>
                 <article id="musicas9">
-                    <iframe style="border-radius:0px" src="https://open.spotify.com/embed/album/2BtE7qm1qzM80p9vLSiXkj?utm_source=generator&theme=0" width="100%" height="464" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe></iframe>
+                    <iframe style="border-radius:0px"
+                        src="https://open.spotify.com/embed/album/2BtE7qm1qzM80p9vLSiXkj?utm_source=generator&theme=0"
+                        width="100%" height="464" frameBorder="0" allowfullscreen=""
+                        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                        loading="lazy"></iframe></iframe>
                 </article>
                 <article id="musicas10">
-                    <iframe style="border-radius:0px" src="https://open.spotify.com/embed/album/1klALx0u4AavZNEvC4LrTL?utm_source=generator&theme=0" width="100%" height="464" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                    <iframe style="border-radius:0px"
+                        src="https://open.spotify.com/embed/album/1klALx0u4AavZNEvC4LrTL?utm_source=generator&theme=0"
+                        width="100%" height="464" frameBorder="0" allowfullscreen=""
+                        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                        loading="lazy"></iframe>
                 </article>
                 <article id="musicas11">
-                    <iframe style="border-radius:0px" src="https://open.spotify.com/embed/album/1gKZ5A1ndFqbcrWtW85cCy?utm_source=generator&theme=0" width="100%" height="464" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                    <iframe style="border-radius:0px"
+                        src="https://open.spotify.com/embed/album/1gKZ5A1ndFqbcrWtW85cCy?utm_source=generator&theme=0"
+                        width="100%" height="464" frameBorder="0" allowfullscreen=""
+                        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                        loading="lazy"></iframe>
                 </article>
                 <article id="musicas12">
-                    <iframe style="border-radius:0px" src="https://open.spotify.com/embed/album/0ETFjACtuP2ADo6LFhL6HN?utm_source=generator&theme=0" width="100%" height="464" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                    <iframe style="border-radius:0px"
+                        src="https://open.spotify.com/embed/album/0ETFjACtuP2ADo6LFhL6HN?utm_source=generator&theme=0"
+                        width="100%" height="464" frameBorder="0" allowfullscreen=""
+                        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                        loading="lazy"></iframe>
                 </article>
                 <article id="musicas13">
-                    <iframe style="border-radius:0px" src="https://open.spotify.com/embed/album/0jTGHV5xqHPvEcwL8f6YU5?utm_source=generator&theme=0" width="100%" height="464" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                    <iframe style="border-radius:0px"
+                        src="https://open.spotify.com/embed/album/0jTGHV5xqHPvEcwL8f6YU5?utm_source=generator&theme=0"
+                        width="100%" height="464" frameBorder="0" allowfullscreen=""
+                        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                        loading="lazy"></iframe>
                 </article>
             </div>
         </aside>
@@ -210,13 +316,13 @@
         <p id="by">
             <span>Marcelo Bigaram</span>
             <span><a href="https://github.com/mbigaram" target="_blank">
-                <img src="./assets/github_logo_icon_143772.png" alt="github" id="git">
-            </a>
-        </span>
-        <span>
-            <a href="https://www.spotify.com/" target="_blank">
-                <img src="./assets/white-spotify-icon-348137.png" alt="spotify" id="spot">
-            </a>
+                    <img src="./assets/github_logo_icon_143772.png" alt="github" id="git">
+                </a>
+            </span>
+            <span>
+                <a href="https://www.spotify.com/" target="_blank">
+                    <img src="./assets/white-spotify-icon-348137.png" alt="spotify" id="spot">
+                </a>
             </span>
         </p>
     </footer>

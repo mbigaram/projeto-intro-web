@@ -87,7 +87,6 @@
     align-items: center;
     color: whitesmoke;
     text-decoration: none;
-
 }
 
 #disco {
@@ -141,6 +140,40 @@ main{
     width: 600px;
     height: auto;
     background: #000000;
+    /* color: antiquewhite; */
+}
+
+#materia{
+    color:antiquewhite;
+    font-family: Tahoma;
+    text-align: center;
+    padding: 0%;
+} 
+
+#texto{
+    padding: 5% 5%;
+    text-align: justify;
+    font-size: 16px;
+}
+
+#formacao{
+    display: flex;
+    gap:5px;
+}
+
+#jpgr{
+    width: 100%;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    
+}
+
+#form{
+    display: grid;
+    font-size: 11px;
+    font-family: Tahoma;
+    text-align: center;
+
 }
 
 article{
@@ -180,7 +213,7 @@ h1 {
 } */
 
 .gradiente{
-    background-image: linear-gradient(to right, #709270, #E6B38C,  #966262);
+    background-image: linear-gradient(to right, #418766, #c97760,  #4b7b9d, #934767);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;

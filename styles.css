@@ -132,6 +132,7 @@ main{
     border-top-right-radius: 15px;
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
     list-style-type: none;
+    min-height: 93vh;
 }
 
 li {
@@ -164,7 +165,7 @@ h1 {
 }
 
 .gradiente{
-    background-image: linear-gradient(to right, #709270, #E6B38C,  #784545);
+    background-image: linear-gradient(to right, #418766, #c97760,  #4b7b9d, #934767);;
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -241,6 +242,7 @@ footer {
     align-items: baseline;
     justify-content: space-between;
     padding: 10px 100px;
+    
 }
 
 #by{

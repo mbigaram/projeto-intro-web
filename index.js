@@ -5,7 +5,7 @@
 //const 1ºfase = ("1º Fase")
 
 const album1 = {
-    capa:"../assets/please-please-me.png",
+    capa: "../assets/please-please-me.png",
     album: "Please Please Me",
     ano: 1963,
     qtde: 14,
@@ -27,7 +27,7 @@ const album1 = {
     ],
 }
 const album2 = {
-    capa:"../assets/with-the-beatles.png",
+    capa: "../assets/with-the-beatles.png",
     album: "With the Beatles",
     ano: 1963,
     qtde: 14,
@@ -50,7 +50,7 @@ const album2 = {
     ],
 }
 const album3 = {
-    capa:"../assets/a-hard-days-night.png",
+    capa: "../assets/a-hard-days-night.png",
     album: "A Hard Day's Night",
     ano: 1964,
     qtde: 13,
@@ -72,7 +72,7 @@ const album3 = {
     ],
 }
 const album4 = {
-    capa:"../assets/beatles-for-sale.png",
+    capa: "../assets/beatles-for-sale.png",
     album: "Beatles for Sale",
     ano: 1964,
     qtde: 14,
@@ -95,7 +95,7 @@ const album4 = {
     ],
 }
 const album5 = {
-    capa:"../assets/help.png",
+    capa: "../assets/help.png",
     album: "Help!",
     ano: 1965,
     qtde: 14,
@@ -118,7 +118,7 @@ const album5 = {
     ],
 }
 const album6 = {
-    capa:"../assets/rubber-soul.png",
+    capa: "../assets/rubber-soul.png",
     album: "Rubber Soul",
     ano: 1966,
     qtde: 14,
@@ -141,7 +141,7 @@ const album6 = {
     ],
 }
 const album7 = {
-    capa:"../assets/revolver.png",
+    capa: "../assets/revolver.png",
     album: "Revolver",
     ano: 1966,
     qtde: 14,
@@ -164,7 +164,7 @@ const album7 = {
     ]
 }
 const album8 = {
-    capa:"../assets/sgt-peppers.png",
+    capa: "../assets/sgt-peppers.png",
     album: "Sgt. Pepper's Lonely Hearts Club Band",
     ano: 1967,
     qtde: 14,
@@ -186,7 +186,7 @@ const album8 = {
     ]
 }
 const album9 = {
-    capa:"../assets/magical-mystery-tour.png",
+    capa: "../assets/magical-mystery-tour.png",
     album: "Magical Mystery Tour",
     ano: 1967,
     qtde: 11,
@@ -206,7 +206,7 @@ const album9 = {
     ]
 }
 const album10 = {
-    capa:"../assets/white-album.png",
+    capa: "../assets/white-album.png",
     album: "The White Album ",
     ano: 1968,
     qtde: 30,
@@ -245,7 +245,7 @@ const album10 = {
     ]
 }
 const album11 = {
-    capa:"../assets/yellow-submarine.png",
+    capa: "../assets/yellow-submarine.png",
     album: "Yellow Submarine",
     ano: 1969,
     qtde: 13,
@@ -267,7 +267,7 @@ const album11 = {
     ]
 }
 const album12 = {
-    capa:"../assets/abbey-road.png",
+    capa: "../assets/abbey-road.png",
     album: "Abbey Road",
     ano: 1969,
     qtde: 17,
@@ -293,7 +293,7 @@ const album12 = {
     ]
 }
 const album13 = {
-    capa:"../assets/let-it-be.png",
+    capa: "../assets/let-it-be.png",
     album: "Let It Be",
     ano: 1970,
     qtde: 12,
@@ -314,7 +314,7 @@ const album13 = {
     ]
 }
 const albumC2 = {
-    capa:"../assets/red-album.png",
+    capa: "../assets/red-album.png",
     album: "The Beatles 1962 - 1966",
     ano: 1973,
     qtde: 26,
@@ -349,7 +349,7 @@ const albumC2 = {
     ],
 }
 const albumC1 = {
-    capa:"../assets/hey-jude.png",
+    capa: "../assets/hey-jude.png",
     album: "Hey Jude",
     ano: 1970,
     qtde: 10,
@@ -368,7 +368,7 @@ const albumC1 = {
     ]
 }
 const albumC3 = {
-    capa:"../assets/blue-album.png",
+    capa: "../assets/blue-album.png",
     album: "The Beatles 1967 - 1970",
     ano: 1973,
     qtde: 28,
@@ -405,7 +405,7 @@ const albumC3 = {
     ]
 }
 const albumC7 = {
-    capa:"../assets/rock-n-roll.png",
+    capa: "../assets/rock-n-roll.png",
     album: "Rock and Roll Music",
     ano: 1976,
     qtde: 28,
@@ -441,7 +441,7 @@ const albumC7 = {
     ]
 }
 const albumC4 = {
-    capa:"../assets/past-master-one.png",
+    capa: "../assets/past-master-one.png",
     album: "Past Master - Volume One",
     ano: 1988,
     qtde: 18,
@@ -468,7 +468,7 @@ const albumC4 = {
     ]
 }
 const albumC5 = {
-    capa:"../assets/past-master-two.png",
+    capa: "../assets/past-master-two.png",
     album: "Past Master - Volume Two",
     ano: 1988,
     qtde: 15,
@@ -492,7 +492,7 @@ const albumC5 = {
     ]
 }
 const albumC8 = {
-    capa:"../assets/one.png",
+    capa: "../assets/one.png",
     album: "1",
     ano: 2000,
     qtde: 27,
@@ -528,22 +528,40 @@ const albumC8 = {
     ]
 }
 
-let albuns =[album1, album2, album3,album4, album5, album6,album7, album8, album9,album10, album11, album12,album13, albumC1, albumC2,albumC3, albumC4, albumC5, albumC7, albumC8]
+let albuns = [album1, album2, album3, album4, album5, album6, album7, album8, album9, album10, album11, album12, album13, albumC1, albumC2, albumC3, albumC4, albumC5, albumC7, albumC8]
 
 
 function exibirInput() {
     let input = document.getElementById('busca').value
-    input=input.toLowerCase();
+    input = input.toLowerCase();
     let alb = document.getElementsByClassName('capa');
-    for (i in alb) { 
+    for (i in alb) {
         if (!alb[i].innerHTML.toLowerCase().includes(input)) {
-            alb[i].style.display="none";
+            alb[i].style.display = "none";
         }
         else {
-            alb[i].style.display="list-item";                 
+            alb[i].style.display = "list-item";
         }
     }
 }
+
+
+
+const materia = document.getElementById("materia")
+function clicado(event) {
+    const valor = event.target
+    materia.innerHTML=""     
+}
+clicado() 
+
+
+// const pagDois=(event)=>{
+
+//     if(document.getElementById(event).display="block"){
+//         document.getElementById("materia").display="none"
+//     }
+// } 
+// pagDois()
 
 
 
@@ -653,7 +671,7 @@ function exibirInput() {
 // Quantidade: ${i.qtde}
 // Coletânea: ${i.nCol}
 // Músicas: ${i.musicas} `)
-//     }   
+//     }
 // }
 // //  e devolva a string do relatório com os dados do objeto.
 // string(albuns)

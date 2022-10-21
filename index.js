@@ -530,6 +530,32 @@ const albumC8 = {
 
 let albuns = [album1, album2, album3, album4, album5, album6, album7, album8, album9, album10, album11, album12, album13, albumC1, albumC2, albumC3, albumC4, albumC5, albumC7, albumC8]
 
+function string(objeto){
+    for(let i of objeto) {
+        console.log(`Album: ${i.album}
+Ano: ${i.ano}
+Quantidade: ${i.qtde}
+Coletânea: ${i.nCol}
+Músicas: ${i.musicas} `)
+    }
+}
+//  e devolva a string do relatório com os dados do objeto.
+string(albuns)
+
+console.log(albuns)
+
+
+
+ function pesquisa(array, string) {
+    for(i in albuns){
+        if(array[i].album === string){
+            return console.log(array[i])
+        }
+    }
+    return alert("Não foi encontrado")
+ }
+pesquisa(albuns,"Yellow Submarine")
+
 
 function exibirInput() {
     let input = document.getElementById('busca').value
@@ -539,8 +565,8 @@ function exibirInput() {
         if (!alb[i].innerHTML.toLowerCase().includes(input)) {
             alb[i].style.display = "none";
         }
-        else {
-            alb[i].style.display = "list-item";
+     else {
+        alb[i].style.display = "block";
         }
     }
 }
@@ -673,8 +699,10 @@ clicado()
 // Músicas: ${i.musicas} `)
 //     }
 // }
-// //  e devolva a string do relatório com os dados do objeto.
+//  e devolva a string do relatório com os dados do objeto.
 // string(albuns)
+
+// console.log(albuns)
 
 
 
@@ -689,18 +717,18 @@ clicado()
 // pesquisa(albuns,"Yellow Submarine")
 
 
-// // exemplo de como poderia ter feito com filter
+// exemplo de como poderia ter feito com filter
 
-// // const dois =(albuns, string) => {
-// //     const resultado = albuns.filter((obj) => {
-// //         return obj.album === string
-// //     })
-// //     if (resultado.length > 0){
-// //         console.log(resultado)
-// //     }else{
-// //         alert("Nenhum item encontrado")
-// //     }
-// // }
+// const dois =(albuns, string) => {
+//     const resultado = albuns.filter((obj) => {
+//         return obj.album === string
+//     })
+//     if (resultado.length > 0){
+//         console.log(resultado)
+//     }else{
+//         alert("Nenhum item encontrado")
+//     }
+// }
 
 
 // const exibirInput = () => {

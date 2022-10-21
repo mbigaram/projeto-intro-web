@@ -34,25 +34,27 @@
 
 }
 
-/* #botao {
-    width: 60px;
+ .botao {
+    width: 20px;
     font-weight: 700;
+    font-family: Tahoma;
     background-color: rgb(120, 69, 69);
     border: 4px solid rgb(120, 69, 69);
     color: whitesmoke
-} */
+} 
 
-input[type=text] {
-    width: 50%;
-    -webkit-transition: width 0.15s ease-in-out;
-    transition: width 0.15s ease-in-out;
- }
+input[type=text]{
+    width: 30%;
+   -webkit-transition: width 0.15s ease-in-out;
+    transition: width 0.50s ease-in-out;
+ } 
 
  /* When the input field gets focus,
       change its width to 100% */
- input[type=text]:focus {
-   width: 100%;
- } 
+ input[type=text]:focus,
+ input[type=text]:valid {
+   width: 76%;
+ }  
 
 #busca::placeholder {
     width: 100%;
@@ -68,7 +70,7 @@ input[type=text] {
     width: 100%;
     height: 50px;
     margin-top: 63px;
-    background-image: linear-gradient(to right, rgb(56, 87, 56), rgb(17, 21, 17));
+    background-image: linear-gradient(to right, #784545, rgb(17, 21, 17));
     z-index: 1;
 
 }
@@ -124,7 +126,7 @@ main{
     width: 90%;
     margin: 0 5%;
     padding-top: 200px;
-    padding-bottom: 70px;
+    padding-bottom: 66px;
     padding-inline: 3%;
     gap: 120px 40px; 
     background-image: url(./assets/fotos-beatles/foto-fundo.png);
@@ -165,7 +167,7 @@ h1 {
 }
 
 .gradiente{
-    background-image: linear-gradient(to right, #418766, #c97760,  #4b7b9d, #934767);;
+    background-image: linear-gradient(to right, #6f887d, #caaaa2,  #7a8c9a, #927782);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -187,6 +189,7 @@ h2 {
 }
 
 h3 {
+    font-size: 20px;
     border-top: 1px solid white;
     border-bottom: 1px solid white;
     height: 50px;
@@ -222,10 +225,10 @@ h3 {
     box-shadow: 0 5px 10px black;
 }
 
-#front {
+/* #front {
     background-color: #bbb;
     color: black;
-}
+} */
 
 #verso {
     background: rgb(138, 97, 97);
@@ -259,10 +262,16 @@ footer {
 }
 
 
+
+
 @media screen and (min-device-width : 420px) and (max-device-width : 675px) {
 
     #fundo {
         display: none
+    }
+
+    .dev {
+        display: none;
     }
 
     #botao {
@@ -300,14 +309,11 @@ footer {
 
 @media screen and (max-device-width : 419px) {
 
-    #botao {
-        display: none
-    }
+  .dev{
+    display: none;
+  }
 
-    #busca {
-        width: 100px;
-    }
-
+  
     #fundo {
         display: none
     }
@@ -339,6 +345,7 @@ footer {
     }
 
     #cabecalho {
+        height: 70px;
         padding: 12px 60px;
     }
 
@@ -347,5 +354,8 @@ footer {
         gap: 6%;
         padding-right: 5px;
     }
+
 }
+
+
 

@@ -26,9 +26,8 @@
         <form method="get" action="">
             <div id="search">
                 <label for="busca"></label>
-                <input type="text" size="20" id="busca" onkeyup="exibirInput()" name="busca" placeholder="Busca"
-                    required>
-                <!-- <button type="submit" id="botao">HELP!</button> -->
+                <input required type="text" size="20" id="busca" name="busca" placeholder="Busca">
+                <button onclick="exibirInput()" type="button" class="botao" id="busca">HELP!</button>
             </div>
     </header>
     <nav>
@@ -287,7 +286,7 @@
                         <li>Album:<a href="https://pt.wikipedia.org/wiki/Sgt._Pepper%27s_Lonely_Hearts_Club_Band"
                                 target="_blank">
                                 <h3>
-                                    <font size="1">Sgt. Pepper's Lonely Hearts Club Band</font>
+                                    <font size="2">Sgt. Pepper's Lonely Hearts Club Band</font>
                                 </h3>
                             </a></li>
                         <li>Ano: 1967</li>
@@ -493,7 +492,7 @@
                 <div class="face" id="verso">
                     <ul>
                         <li>Album:<a href="https://pt.wikipedia.org/wiki/The_Beatles_1962%E2%80%931966" target="_blank">
-                                <h3>The Beatles 1962 - 1966</h3>
+                                <h3>The Beatles <font size="2">1962 - 1966</font></h3>
                             </a></li>
                         <li>Ano: 1973</li>
                         <li>Quantidade: 26</li>
@@ -565,7 +564,7 @@
                 <div class="face" id="verso">
                     <ul>
                         <li>Album:<a href="https://pt.wikipedia.org/wiki/The_Beatles_1967%E2%80%931970" target="_blank">
-                                <h3>The Beatles 1967 - 1970</h3>
+                                <h3>The Beatles <font size="2">1967 - 1970</font></h3>
                             </a></li>
                         <li>Ano: 1973</li>
                         <li>Quantidade: 28</li>
@@ -659,7 +658,7 @@
                 <div class="face" id="verso">
                     <ul>
                         <li>Album:<a href="https://pt.wikipedia.org/wiki/Past_Masters" target="_blank">
-                                <h3>Past Master - Volume One
+                                <h3>Past Master - <font size="2">Volume One</font>
                                 </h3>
                             </a></li>
                         <li>Ano: 1988</li>
@@ -697,8 +696,7 @@
                 <div class="face" id="verso">
                     <ul>
                         <li>Album:<a href="https://en.wikipedia.org/wiki/Past_Masters" target="_blank">
-                                <h3>Past Master - Volume
-                                    Two</h3>
+                                <h3>Past Master - <font size="2">Volume Two</font></h3>
                             </a></li>
                         <li>Ano: 1988</li>
                         <li>Quantidade: 15</li>
@@ -781,7 +779,7 @@
                     <ul>
                         <li>Album:<a href="https://en.wikipedia.org/wiki/The_Beatles_at_the_Hollywood_Bowl"
                                 target="_blank">
-                                <h3>Live at the Hollywood Bowl</h3>
+                                <h3>Live at the <font size="2">Hollywood Bowl</font></h3>
                             </a></li>
                         <li>Ano: 1977</li>
                         <li>Quantidade: 17</li>
@@ -868,7 +866,7 @@
                         <li>Album:<a href="https://en.wikipedia.org/wiki/The_Beatles%27_rooftop_concert#Set_list"
                                 target="_blank">
                                 <h3>
-                                    <font size="1">Get Back — The Rooftop Performance</font>
+                                    Get Back - <font size="1">The Rooftop Performance</font>
                                 </h3>
                             </a></li>
                         <li>Ano: 2022</li>
@@ -925,8 +923,9 @@
 
     <footer id="rodape">
         <p id="corp">© 2022</p>
-        <p id="by"><span>Este site foi desenvolvido por Marcelo Bigaram</span><span><a href="https://github.com/mbigaram" target="_blank"><img
-                        src="./assets/github_logo_icon_143772.png" alt="github" id="git"></a></span><span>
+        <p id="by"><span class="dev">Este site foi desenvolvido por Marcelo Bigaram</span><span><a
+                    href="https://github.com/mbigaram" target="_blank"><img src="./assets/github_logo_icon_143772.png"
+                        alt="github" id="git"></a></span><span>
                 <a href="https://www.spotify.com/" target="_blank">
                     <img src="./assets/white-spotify-icon-348137.png" alt="spotify" id="spot">
                 </a>

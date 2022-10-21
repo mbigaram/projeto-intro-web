@@ -186,6 +186,7 @@ h1 {
 h2 {
     font-family: Tahoma;
     font-size: 15px;
+    text-decoration:overline;
 }
 
 h3 {
@@ -195,6 +196,9 @@ h3 {
     height: 50px;
     line-height: 50px;
     color: antiquewhite;
+    text-decoration: underline;
+    
+    
 }
 
 .capa {

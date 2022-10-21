@@ -188,7 +188,8 @@ article:target{
     z-index: 2;
     border-radius: 10%;
     text-decoration: underline;
-       
+    line-height: 15px;
+
 }
 
 #imagem{

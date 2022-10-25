@@ -47,13 +47,15 @@ input[type=text]{
     width: 30%;
    -webkit-transition: width 0.15s ease-in-out;
     transition: width 0.50s ease-in-out;
+    
  } 
 
  /* When the input field gets focus,
       change its width to 100% */
  input[type=text]:focus,
  input[type=text]:valid {
-   width: 76%;
+   width: 70%;
+ 
  }  
 
 #busca::placeholder {
@@ -249,6 +251,7 @@ footer {
     align-items: baseline;
     justify-content: space-between;
     padding: 10px 100px;
+    font-family: Tahoma;
     
 }
 
@@ -262,6 +265,9 @@ footer {
 }
 
 #spot {
+    width: 20px;
+}
+#linkedin {
     width: 20px;
 }
 
@@ -341,6 +347,7 @@ footer {
         height: 30px;
         line-height: 30px;
         color: antiquewhite;
+        font-size: 12px;
     }
 
     li {

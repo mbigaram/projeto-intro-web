@@ -236,6 +236,7 @@ footer {
     align-items: baseline;
     justify-content: space-between;
     padding: 10px 100px;
+    font-family: Tahoma;
 }
 
 #by{
@@ -248,6 +249,10 @@ footer {
 }
 
 #spot {
+    width: 20px;
+}
+
+#linkedin {
     width: 20px;
 }
 

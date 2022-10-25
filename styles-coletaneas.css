@@ -178,7 +178,7 @@ article:target{
 #frente h2{
     font-size: 11px;
     display: absolute;
-    bottom:0;
+    bottom: 0;
     width: 100px;
     height: 100px;
     line-height: 25px;
@@ -243,6 +243,7 @@ footer {
     align-items: baseline;
     justify-content: space-between;
     padding: 10px 100px;
+    font-family: Tahoma;
 }
 
 #by{
@@ -255,6 +256,10 @@ footer {
 }
 
 #spot {
+    width: 20px;
+}
+
+#linkedin {
     width: 20px;
 }
 

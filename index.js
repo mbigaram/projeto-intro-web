@@ -563,8 +563,12 @@ function exibirInput() {
     let alb = document.getElementsByClassName('capa');
     for (i in alb) {
         if (!alb[i].innerHTML.toLowerCase().includes(input)) {
-            alb[i].style.display = "none";
-        }
+            
+             if (alb[i] < 1) {
+            alert("não")
+            console.log(alb[i])
+        }else {alb[i].style.display = "none";
+    }}
      else {
         alb[i].style.display = "block";
         }
